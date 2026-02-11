@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <hr>
+
+    <form>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Full Name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter Email Address" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required><br><br>
+
+        
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" id="c++" name="skills" value="c++">
+        <label for="c++">c++</label><br>
+
+        <input type="checkbox" id="c#" name="skills" value="c#">
+        <label for="c#">c#</label><br> 
+        
+        <input type="checkbox" id="html" name="skills" value="html">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="javascript" name="skills" value="javascript">
+        <label for="javascript">JavaScript</label><br><br>
+ 
+        <label for="department">Department:</label><br>
+        <select id="department" name="department" required>
+            <option value="">Select Department</option>
+            <option value="cse">CSE</option>
+            <option value="eee">EEE</option>
+            <option value="bba">BBA</option>
+            <option value="english">English</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" cols="70" placeholder="Give Feedback"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Student Registration. All rights reserved. <br> Prosenjit Dey Arghya (23-54041-3)</p>
+
+    </footer>
+
+</body>
+</html>
